@@ -24,11 +24,54 @@ nav ul	{
 	display: none;
 }
 
+#mobile-banking {
+	background-color: #eee;
+	padding: 20px;
+	font-family: helvetica , Arial;
+}
+
+#mobile-banking h1 {
+	font-size: 16px;
+}
+
+.login {
+	background-color: #528224;
+	color: white;
+
+	width: 40%;
+	text-align: center;
 
 
+} 
+.login + .login { /* grab element with class of .login after element with class of .login */
+	float: right;
+}
 
+#mobile-banking a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	margin: 10px 0;
+}
 
+#mobile-banking .contact {
+	background-color: #fff;
+	display: block;
+	color: #333;
+	border: 1px solid #ddd;
+}
 
+#mobile-banking ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+@media all and (min-width: 600px) {
+
+	#mobile-banking {
+		display: none;
+	}
+}
 
 
 
