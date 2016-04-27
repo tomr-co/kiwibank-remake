@@ -109,7 +109,87 @@ nav ul	{
 	display: none;
 }
 
+#products {
+	text-align: center;
+	padding: 10px;
+}
 
+#products h1 {
+	color: #77ba22;
+}
+
+#products a {
+	text-decoration: none;
+	color: #25A5CA;
+	display: inline-block;
+	padding: 10px;
+	background-color: #fafafa;
+	margin: 3px;
+	border: 1px solid #ddd;
+}
+
+#products a:hover {
+	background-color: #efefef;
+}
+
+#products .percentage + a {/* grab anchor after the percentage class */
+	background-color: transparent;
+	border: none;
+}
+
+.percentage {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #efefef;
+	margin: 20px 0;
+	box-shadow: 0 14px 0 -10px #efefef;
+	text-align: left;
+}
+
+.percentage > span {
+	text-transform: uppercase;
+	background-color: #dfdfdf;
+	padding: 7px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+span.limited {
+	background-color: #ff9100;
+	color: #fff;
+}
+
+.percentage p {
+	font-size: 64px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding-left: 10px;
+}
+
+.percentage p span {
+	font-size: 30px;
+	position: relative;
+}
+
+.percentage p span:first-child {
+
+	bottom: 23px;
+}
+
+.percentage p span:last-child {
+	right: 28px;
+	font-size: 25px;
+}
+
+.percentage ul {
+	list-style: none;
+	color: #888;
+	padding-left: 10px;
+}
+
+
+
+/*----------------------------------------------------------------------*/
 
 @media all and (min-width: 600px) {
 
